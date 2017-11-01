@@ -1,0 +1,19 @@
+console.log({
+    key: "value"
+});
+
+
+var Cat = function(name) {
+    this.catName = name;
+}
+
+console.log(Cat)
+
+
+var aCat = new Cat();
+
+console.log(aCat)
+
+
+// 为什么打印的结果格式不一样， javascript 类似的__str__方法是什么
+// 调试后的结论， log函数对传递进来的对象进行inspect, 根据不同的类型生成相应的字符串并输出
