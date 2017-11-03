@@ -12,7 +12,8 @@ https://github.com/fuchengwang/blog/issues
 
 ### ⭐️⭐️⭐️⭐️ 
 - css加强
-  - [为什么很多人觉得CSS很难写?](http://www.winnet.cc/industry-arc1737.html)
+  - [为什么很多人觉得CSS很难写?](http://www.winnet.cc/industry-arc1737.html)   
+  - [说说CSS学习中的瓶颈](http://www.zhangxinxu.com/wordpress/2012/07/bottleneck-css-study/)
 
 ### ⭐️⭐️⭐️ 
 - Dom操作
