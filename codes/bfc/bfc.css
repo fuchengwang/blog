@@ -1,0 +1,46 @@
+.box {
+    width: 400px;
+    height: 200px;
+    border: 1px solid;
+    /* margin: 30px; */
+    background-color: #66ccff;
+}
+
+
+.bfc {
+    background-color: #ccc !important;
+    /* float: left; */
+
+    /* overflow: hidden; */
+    /* overflow: auto; */
+    /* overflow: scroll */
+
+    /* display: inline-block; */
+    /* display: inline-flex; */
+    /* display: inline-table; */
+
+    /* display: table; ---> 注：并不是table造成的bfc， 而是创建table时， 默认会创建一个table-cell */
+    /* display: table-cell; */
+    /* display: table-caption */
+
+    /* display: flow-root; ---> CSS标准的bfc创建方法 */
+
+
+}
+
+.float-box {
+    width: 300px;
+    height: 300px;
+    background-color: tomato;
+    float: left;
+}
+
+
+.little-box {
+    border: 1px solid;
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+    background-color: green;
+}
+
