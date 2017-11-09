@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="bfc.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <div class="no-bfc box">
+
+    </div> -->
+
+    <!-- <div class="bfc box">
+        <div class="float-box">
+
+        </div>
+    </div> -->
+
+    <!-- <div class="float-box">我是一个div</div>
+    <p class="box bfc">我是一串文字我是一串文字我是一串文字我是一串文字</p> -->
+
+    <h1>BFC保护自己内部元素， 不被外部给破坏或阻挡</h1>
+    <h3>BFC</h3>
+    <div class="box bfc">
+        <!-- 块盒参与bfc -->
+        <div class="little-box"></div>
+        <div class="little-box"></div>
+        <div class="little-box"></div>
+        <div class="little-box"></div>
+    </div>
+    <div class="little-box bfc"></div>
+
+    <h3>No BFC</h3>
+    <div class="box">
+            <div class="little-box"></div>
+            <div class="little-box"></div>
+            <div class="little-box"></div>
+            <div class="little-box"></div>
+    </div>
+    <div class="little-box"></div>
+    <hr>
+    <!-- <div class="box"></div> -->
+
+    
+</body>
+</html>
