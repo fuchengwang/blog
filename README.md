@@ -20,6 +20,7 @@ https://github.com/fuchengwang/blog/issues
 
 ### ⭐️⭐️
 - Javascript 的全局对象
+    - http://www.cnblogs.com/TomXu/archive/2012/01/16/2309728.html
 - 所有浏览器的兼容性测试与总结
 
 ### ⭐️
